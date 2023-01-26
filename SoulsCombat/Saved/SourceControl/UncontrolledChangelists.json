@@ -309,7 +309,16 @@
 				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Beta_Joints_MAT1.uasset",
 				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/X_Bot.uasset",
 				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/X_Bot_PhysicsAsset.uasset",
-				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/X_Bot_Skeleton.uasset"
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/X_Bot_Skeleton.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Materials/Beta_HighLimbsGeoSG3.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Materials/Beta_Joints_MAT1.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Animations/Walking.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Animations/Running.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Animations/BlendSpaces/BS_Moving.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/ABP_X_Bot.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Animations/Jumping.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Animations/Falling_To_Landing.uasset",
+				"C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/Animations/Falling_Idle.uasset"
 			]
 		}
 	]

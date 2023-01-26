@@ -15797,3 +15797,93 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.01.26-01.19.04:193][327]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 36.1 sec)
 [2023.01.26-01.19.04:205][327]AssetCheck: New page: Asset Save: ABP_X_Bot
 [2023.01.26-01.19.04:206][327]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Assets/Characters/MixamoX/ABP_X_Bot.ABP_X_Bot
+[2023.01.26-01.19.45:313][706]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2023.01.26-01.19.45:321][706]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.084
+[2023.01.26-01.19.45:321][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Characters/MixamoX/X_Bot_Skeleton] ([1] browsable assets)...
+[2023.01.26-01.19.45:321][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Characters/MixamoX/X_Bot_Skeleton]
+[2023.01.26-01.19.45:323][706]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Characters/MixamoX/X_Bot_Skeleton_Auto5
+[2023.01.26-01.19.45:323][706]LogSavePackage: Moving 'C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Saved/X_Bot_Skeleton_Auto5407D2A084B6B600B9738AFA2AFFEC778.tmp' to 'C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Saved/Autosaves/Game/Assets/Characters/MixamoX/X_Bot_Skeleton_Auto5.uasset'
+[2023.01.26-01.19.45:324][706]LogFileHelpers: Auto-saving content packages took 0.004
+[2023.01.26-01.20.09:933][794]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.26-01.20.09:939][794]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.01.26-01.20.09:941][794]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.26-01.20.09:941][794]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.26-01.20.09:941][794]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 1 ms)
+[2023.01.26-01.20.09:941][794]LogWorldPartition: Display: GenerateStreaming took 234 us (total: 37 ms)
+[2023.01.26-01.20.09:941][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.26-01.20.09:941][794]PIE: New page: PIE session: ThirdPersonMap (Jan 25, 2023, 3:20:09 PM)
+[2023.01.26-01.20.09:942][794]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.26-01.20.09:946][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004390s)
+[2023.01.26-01.20.09:946][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004424s)
+[2023.01.26-01.20.09:946][794]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.26-01.20.09:947][794]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.26-01.20.09:947][794]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.01.26-01.20.09:947][794]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.26-01.20.09:947][794]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.01.26-01.20.09:948][794]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.01.26-01.20.09:948][794]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 377 ms)
+[2023.01.26-01.20.09:948][794]LogPlayLevel: PIE: World Init took: (0.002239s)
+[2023.01.26-01.20.10:010][794]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.01.26-01.20.10:014][794]LogAudio: Display: Creating Audio Device:                 Id: 141, Scope: Unique, Realtime: True
+[2023.01.26-01.20.10:014][794]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.26-01.20.10:014][794]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.26-01.20.10:014][794]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.26-01.20.10:014][794]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.26-01.20.10:014][794]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.26-01.20.10:014][794]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.26-01.20.10:014][794]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.26-01.20.10:014][794]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.26-01.20.10:015][794]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.26-01.20.10:015][794]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.26-01.20.10:015][794]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.26-01.20.10:017][794]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.26-01.20.10:064][794]LogAudioMixer: Display: Using Audio Hardware Device Rear Panel Out (2- Realtek(R) Audio)
+[2023.01.26-01.20.10:064][794]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.26-01.20.10:064][794]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.26-01.20.10:064][794]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.26-01.20.10:065][794]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=141
+[2023.01.26-01.20.10:065][794]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=141
+[2023.01.26-01.20.10:066][794]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=141
+[2023.01.26-01.20.10:066][794]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=141
+[2023.01.26-01.20.10:066][794]LogInit: FAudioDevice initialized.
+[2023.01.26-01.20.10:066][794]LogAudio: Display: Audio Device (ID: 141) registered with world 'ThirdPersonMap'.
+[2023.01.26-01.20.10:069][794]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.26-01.20.10:070][794]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.25-20.20.10
+[2023.01.26-01.20.10:071][794]LogWorld: Bringing up level for play took: 0.001578
+[2023.01.26-01.20.10:073][794]LogOnline: OSS: Created online subsystem instance for: :Context_194
+[2023.01.26-01.20.10:074][794]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.01.26-01.20.10:074][794]LogScript: Warning: Last function called:
+	/Game/Assets/Characters/MixamoX/ABP_X_Bot.ABP_X_Bot_C.ExecuteUbergraph_ABP_X_Bot
+
+[2023.01.26-01.20.10:075][794]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=90.212
+[2023.01.26-01.20.10:075][794]PIE: Server logged in
+[2023.01.26-01.20.10:076][794]PIE: Play in editor total start time 0.137 seconds.
+[2023.01.26-01.20.17:529][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-01.20.17:529][659]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.26-01.20.17:529][659]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.26-01.20.17:529][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-01.20.17:529][659]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.01.26-01.20.17:540][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.26-01.20.17:552][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-01.20.17:618][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-01.20.17:618][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=141
+[2023.01.26-01.20.17:620][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=141
+[2023.01.26-01.20.17:629][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.01.26-01.20.17:685][660]LogPlayLevel: Display: Destroying online subsystem :Context_194
+[2023.01.26-01.20.33:661][581]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Assets/Characters/MixamoX/Animations/Jump/Driving_Jump.Driving_Jump
+[2023.01.26-01.20.33:745][581]LogViewport: Scene viewport resized to 1864x795, mode Windowed.
+[2023.01.26-01.20.39:606][938]LogViewport: Scene viewport resized to 1864x1237, mode Windowed.
+[2023.01.26-01.20.42:425][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.01.26-01.20.43:905][ 98]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.26-01.20.43:980][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.01.26-01.20.44:049][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.01.26-01.20.44:118][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.01.26-01.20.49:462][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.01.26-01.20.50:422][414]LogSlate: Window 'Save Content' being destroyed
+[2023.01.26-01.20.50:447][414]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.26-01.20.50:481][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Characters/MixamoX/X_Bot_Skeleton" FILE="C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/X_Bot_Skeleton.uasset" SILENT=true
+[2023.01.26-01.20.50:483][414]LogSavePackage: Moving output files for package: /Game/Assets/Characters/MixamoX/X_Bot_Skeleton
+[2023.01.26-01.20.50:484][414]LogSavePackage: Moving 'C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Saved/X_Bot_Skeleton9310DD1540D9920A10DD7194B70F1C52.tmp' to 'C:/Users/Andrew/Documents/SoulsCombat/SoulsCombat/Content/Assets/Characters/MixamoX/X_Bot_Skeleton.uasset'
+[2023.01.26-01.20.50:493][414]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 36.2 sec)
+[2023.01.26-01.20.50:505][414]AssetCheck: New page: Asset Save: X_Bot_Skeleton
+[2023.01.26-01.20.50:505][414]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Assets/Characters/MixamoX/X_Bot_Skeleton.X_Bot_Skeleton

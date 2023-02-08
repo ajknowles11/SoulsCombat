@@ -9,6 +9,9 @@
 UDELEGATE(BlueprintCallable)
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FTakeDamageDelegate, float, Damage)
 
+UDELEGATE(BlueprintCallable)
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDeathDelegate)
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SOULSCOMBAT_API UStatusComponent : public UActorComponent
 {
@@ -28,6 +31,8 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	virtual void TakeDamage(float Damage);
+	
+	virtual void Death();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float Health;
@@ -36,5 +41,8 @@ public:
 
 	UPROPERTY(BlueprintAssignable, Category="Custom")
 	FTakeDamageDelegate OnTakeDamage;
+
+	UPROPERTY(BlueprintAssignable, Category = "Custom")
+	FDeathDelegate OnDeath;
 	
 };

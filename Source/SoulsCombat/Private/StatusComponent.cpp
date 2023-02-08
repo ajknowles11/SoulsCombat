@@ -37,8 +37,14 @@ void UStatusComponent::TakeDamage(float Damage)
 	Health = std::clamp(Health - Damage, 0.0f, MaxHealth);
 	if (Health == 0.0f) 
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, "Dead");
+		Death();
 	}
 
 	OnTakeDamage.Broadcast(Damage);
+}
+
+void UStatusComponent::Death()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, "Dead");
+	OnDeath.Broadcast();
 }

@@ -11,6 +11,8 @@ UStatusComponent::UStatusComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
+	Health = 100.0f;
+	MaxHealth = 100.0f;
 }
 
 

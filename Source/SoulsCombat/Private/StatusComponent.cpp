@@ -11,6 +11,7 @@ UStatusComponent::UStatusComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
+	bIsDead = false;
 	Health = 100.0f;
 	MaxHealth = 100.0f;
 }
@@ -47,6 +48,7 @@ void UStatusComponent::TakeDamage(float Damage)
 
 void UStatusComponent::Death()
 {
+	bIsDead = true;
 	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, "Dead");
 	OnDeath.Broadcast();
 }

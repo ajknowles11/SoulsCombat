@@ -38,11 +38,13 @@ public:
 	float Health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MaxHealth;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	bool bIsDead;
 
 	UPROPERTY(BlueprintAssignable, Category="Custom")
 	FTakeDamageDelegate OnTakeDamage;
 
-	UPROPERTY(BlueprintAssignable, Category = "Custom")
+	UPROPERTY(BlueprintAssignable, Category="Custom")
 	FDeathDelegate OnDeath;
 	
 };
